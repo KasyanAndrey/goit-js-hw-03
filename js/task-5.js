@@ -15,10 +15,9 @@ const getAllPropValues = function (arr, prop) {
         totalPropValue.push(obj[prop]);
     }
   }
-
   return totalPropValue;
 };
 
-console.log(getAllPropValues(products, 'name')); 
+console.log(getAllPropValues(products, 'name'));
 console.log(getAllPropValues(products, 'quantity'));
 console.log(getAllPropValues(products, 'category'));
